@@ -96,8 +96,8 @@ const Claim: React.FC<ClaimProps> = () => {
           <>
             <h4> Sign in to your account</h4>
             <SignInWithGoogle disabled={jwtExists} />
-            <p>or</p>
-            <SignInWithApple disabled={false} />
+            {/* <p>or</p>
+            <SignInWithApple disabled={false} /> */}
           </>
         );
       case 3:
